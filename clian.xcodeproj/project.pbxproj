@@ -14,6 +14,7 @@
 		A28157081EE21A4B00EE0929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28157061EE21A4B00EE0929 /* LaunchScreen.storyboard */; };
 		A28157131EE21A4B00EE0929 /* clianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28157121EE21A4B00EE0929 /* clianTests.swift */; };
 		A281571E1EE21A4B00EE0929 /* clianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281571D1EE21A4B00EE0929 /* clianUITests.swift */; };
+		C899D31F1EE6501E0080B5E7 /* clian in Resources */ = {isa = PBXBuildFile; fileRef = C899D31E1EE6501E0080B5E7 /* clian */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A28157191EE21A4B00EE0929 /* clianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A281571D1EE21A4B00EE0929 /* clianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clianUITests.swift; sourceTree = "<group>"; };
 		A281571F1EE21A4B00EE0929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C899D31E1EE6501E0080B5E7 /* clian */ = {isa = PBXFileReference; lastKnownFileType = folder; name = clian; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A28156FD1EE21A4B00EE0929 /* AppDelegate.swift */,
 				A28156FF1EE21A4B00EE0929 /* ViewController.swift */,
 				A28157011EE21A4B00EE0929 /* Main.storyboard */,
+				C899D31E1EE6501E0080B5E7 /* clian */,
 				A28157041EE21A4B00EE0929 /* Assets.xcassets */,
 				A28157061EE21A4B00EE0929 /* LaunchScreen.storyboard */,
 				A28157091EE21A4B00EE0929 /* Info.plist */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C899D31F1EE6501E0080B5E7 /* clian in Resources */,
 				A28157081EE21A4B00EE0929 /* LaunchScreen.storyboard in Resources */,
 				A28157051EE21A4B00EE0929 /* Assets.xcassets in Resources */,
 				A28157031EE21A4B00EE0929 /* Main.storyboard in Resources */,
@@ -508,6 +512,7 @@
 				A28157241EE21A4B00EE0929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A28157251EE21A4B00EE0929 /* Build configuration list for PBXNativeTarget "clianTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				A28157271EE21A4B00EE0929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A28157281EE21A4B00EE0929 /* Build configuration list for PBXNativeTarget "clianUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				A281572A1EE21A4B00EE0929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
