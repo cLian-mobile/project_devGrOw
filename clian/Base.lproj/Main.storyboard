@@ -25,8 +25,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ynt-HW-YD9">
                                 <rect key="frame" x="20" y="110.00000000000001" width="374" height="70.333333333333357"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insult Generator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDv-Yn-rsJ">
-                                        <rect key="frame" x="125.66666666666667" y="0.0" width="123.00000000000001" height="20.333333333333343"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocab Practice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDv-Yn-rsJ">
+                                        <rect key="frame" x="129.33333333333331" y="0.0" width="115.33333333333334" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -47,11 +47,14 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8m-XM-86p">
                                         <rect key="frame" x="0.0" y="0.0" width="152" height="30"/>
-                                        <state key="normal" title="Modern"/>
+                                        <state key="normal" title="Continue"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkJ-6i-cEQ">
                                         <rect key="frame" x="182" y="0.0" width="152" height="30"/>
-                                        <state key="normal" title="Classic"/>
+                                        <state key="normal" title="New Profile"/>
+                                        <connections>
+                                            <action selector="newProf_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nKR-TS-Zm0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -68,10 +71,31 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="continue_button" destination="k8m-XM-86p" id="6J2-cR-Muw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x2s-ZV-kqu">
+            <objects>
+                <viewController id="CGx-4B-ziT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OF5-pi-NV2"/>
+                        <viewControllerLayoutGuide type="bottom" id="auy-Ww-DNT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uq2-wX-tdy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4DA-4f-HKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="849" y="135"/>
         </scene>
     </scenes>
 </document>
